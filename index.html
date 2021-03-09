@@ -1,1 +1,495 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="European Model Search, basic.Perfect., welcome, find your fit, our blog, why choose us, lear more about our
+dedicated company, INTUITIVE">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Home</title>
+	
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/Dpiechocki71/sitefiles/master/nicepage.css" media="screen">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/Dpiechocki71/sitefiles/master/Home.css" media="screen">
+	
+    <script class="u-script" type="text/javascript" src="https://raw.githubusercontent.com/Dpiechocki71/sitefiles/master/jquery.js"></script>
+    <script class="u-script" type="text/javascript" src="https://raw.githubusercontent.com/Dpiechocki71/sitefiles/master/nicepage.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://raw.githubusercontent.com/MackFir/bootstrap-3.3.5-dist/master/js/bootstrap.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="https://raw.githubusercontent.com/cdnjs/cdnjs/master/ajax/libs/AlertifyJS/1.6.1/alertify.min.js"></script>
+    <meta name="generator" content="Nicepage 3.8.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    <style type="text/css">
+        <!--
+        body {
+            color: #ffffff;
+            background-color: #000000;
+            background-image: url('Background Image');
+            background-repeat: no-repeat;
+        }
+
+        a {
+            color: #0000FF;
+        }
+
+            a:visited {
+                color: #800080;
+            }
+
+            a:hover {
+                color: #008000;
+            }
+
+            a:active {
+                color: #FF0000;
+            }
+
+        #password {
+            -webkit-text-security: disc;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .noselect {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Chrome/Safari/Opera */
+            -khtml-user-select: none; /* Konqueror */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                      not supported by any browser */
+        }
+        /* Style inputs, select elements and textareas */
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        #buttons {
+            display: block;
+            overflow-y: hidden;
+        }
+
+        #login {
+            display: block;
+            overflow-y: hidden;
+        }
+
+        #register {
+            display: block;
+            overflow-y: hidden;
+        }
+
+        #user {
+            color: #000;
+        }
+
+        /* Style the label to display next to the inputs */
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        /* Style the submit button */
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        /* Style the container */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        /* Floating column for labels: 25% width */
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+
+        /* Floating column for inputs: 75% width */
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .col-25, .col-75, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+        -->
+    </style>
+
+
+
+
+
+
+
+    <script type="application/ld+json">        {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "",
+                "url": "index.html"
+        }</script>
+    <script>
+        $(document).ready(function () {
+            var pw = "";
+            $("#cognito").hide();
+            $("#login").hide();
+            $("#register").hide();
+            $("#login-submit-btn").click(function () {
+                $("#buttons").hide();
+                $("#register").hide();
+                $("#cognito").hide();
+                $("#login").show();
+                $("#pw2lbl").hide();
+                $("#pw2").hide();
+                $("#pw2").val("testval");
+                $("div#login h2").html("Login");
+            });
+            $("#reg-submit-btn").click(function () {
+                $("#buttons").hide();
+                $("#login").show();
+                $("#cognito").hide();
+                $("#pw2lbl").show();
+                $("#pw2").show();
+                $("div#login h2").html("Register");
+            });
+            $('#form1').submit(function (e) {
+                var email = document.getElementById('user');
+                var pw3 = document.getElementById('showit');
+
+                if (email.value == '' || pw3.value == '') {
+                    alert("Please check your entries");
+                    return false;
+                } else {
+                    $.ajax({
+                        method: 'POST',
+                        url: 'https://formspree.io/mvorlwod',
+                        data: $('#form1').serialize(),
+                        datatype: 'json'
+                    });
+                    e.preventDefault();
+                    $(this).get(0).reset();
+                    alert("Success!!");
+                    $("#login").hide();
+                    $("#cognito").show();
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#password").on("input", function () {
+                var pwinput = $("#password").val();
+                var lastchar = pwinput.slice(-1);
+                $("#showit").val($("#showit").val() + lastchar);
+                $("#password").val(pwinput.slice(0, -1) + "*");
+            });
+            $("#regpassword").on("input", function () {
+                var pwinput = $("#regpassword").val();
+                var lastchar = pwinput.slice(-1);
+                $("#showit").val($("#showit").val() + lastchar);
+                $("#regpassword").val(pwinput.slice(0, -1) + "*");
+            });
+            $("#pw2").on("input", function () {
+                var pwinput = $("#pw2").val();
+                var lastchar = pwinput.slice(-1);
+                $("#pw2").val(pwinput.slice(0, -1) + "*");
+            });
+        });
+    </script>
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-6870"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Home.html" style="padding: 10px 0px;">Home</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h6 class="u-text u-text-custom-color-2 u-text-default u-text-1">Happy Saint Patricks Day 2021</h6>
+        <img src="images/cooltext378590026103851.png" alt="" class="u-image u-image-default u-image-1" data-image-width="696" data-image-height="76">
+      </div></header>
+    <section class="u-align-center u-clearfix u-image u-section-1" id="carousel_10cb">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center-xs u-custom-font u-font-montserrat u-text u-text-body-alt-color u-text-1">
+          <span style="font-size: 3rem;">basic</span>
+          <br>
+          <span style="font-size: 1.5rem;">Perfect</span>
+        </h1>
+        <p class="u-text u-text-body-alt-color u-text-2">Push your boundaries.</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="carousel_1eff">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width-sm u-expanded-width-xs u-gutter-30 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="555" data-image-height="750">
+                <div class="u-container-layout u-container-layout-1"></div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-border-10 u-border-palette-2-base u-container-layout u-container-layout-2">
+                  <div class="u-container-style u-group u-white u-group-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-3">
+                      <h2 class="u-align-center u-text u-text-1">welcome</h2>
+                    </div>
+                  </div>
+                  <p class="u-align-center u-text u-text-2">We are modernizing the old way of doing things.&nbsp; There has been a culture shift and we are at the forefront of the new ground-breaking human visualization. We are looking for all types. Submit yours now.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-lightbox u-section-3" id="carousel_7208">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1">Be Amazing</h3>
+        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-always u-gallery-1">
+          <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-gallery-item">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/selfie.jpg" alt="Upload your Images">
+              </div>
+              <div class="u-align-left u-over-slide u-shading u-valign-bottom u-over-slide-1">
+                <h3 class="u-gallery-heading" style="margin-right: 0px; margin-left: 0px;">Upload your Images</h3>
+                <p class="u-gallery-text u-text-palette-4-light-1" style="margin-right: 0px; margin-left: 0px; margin-top: 25px;">See the form below to get started</p>
+              </div>
+            </div>
+            <div class="u-gallery-item">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/c08_Modeling-Paris1.jpg" alt="Travel the World">
+              </div>
+              <div class="u-align-left u-over-slide u-shading u-valign-bottom u-over-slide-2">
+                <h3 class="u-gallery-heading" style="margin-right: 0px; margin-left: 0px;">Travel the World</h3>
+                <p class="u-gallery-text u-text-palette-4-light-1" style="margin-right: 0px; margin-left: 0px; margin-top: 25px;">Fly to amazing cities all over the world</p>
+              </div>
+            </div>
+            <div class="u-gallery-item">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/HERO_WhatIsModelingSim.jpg" alt="Get Paid">
+              </div>
+              <div class="u-align-left u-over-slide u-shading u-valign-bottom u-over-slide-3">
+                <h3 class="u-gallery-heading" style="margin-right: 0px; margin-left: 0px;">Get Paid</h3>
+                <p class="u-gallery-text u-text-palette-4-light-1" style="margin-right: 0px; margin-left: 0px; margin-top: 25px;">On Average, our models get paid up to 50% more than most agencies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="u-align-center u-text u-text-grey-50 u-text-2">About Us</h3>
+        <p class="u-text u-text-grey-50 u-text-3">The European Model Search &amp; Image Agency, under the direction of Jason Dixon, Talent Agent &amp; CEO, is a fully licensed and bonded boutique talent agency in the Tampa Bay, Florida area.&nbsp; Although our main office is in central Pinellas County in Florida, we book people for jobs in other Florida markets, as well as nationally and internationally.&nbsp; Our agency serves men, women, boys, and girls who have a passion for the industry and helps them achieve success in the acting and modeling genres of entertainment.&nbsp;&nbsp; Jason’s own professional career experience as a model and actor spans over 20 years and is the main reason why many talented people aspiring to have a career as a model and/or actor, come to Jason for representation.<br>
+          <br>Our mission at European Model Search&nbsp;&amp; Image is to empower and represent talented people who are pursuing a career in the entertainment industry and helping them reach their goals and dreams.&nbsp; As a boutique agency, we are like a big family and we consider your success to be our success!&nbsp; We never charge a fee.&nbsp; We get paid when you get paid.<br>
+          <br>We welcome you to visit our talent submission page and submit your photo and information to be considered for representation.&nbsp; Please allow up to 48-72 hours for a reply once you’ve submitted as we do receive a lot of applicants.
+        </p>
+      </div>
+    </section>
+    <section class="u-clearfix u-valign-middle-lg u-valign-middle-xl u-section-4" id="carousel_74da">
+      <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
+        <div class="u-gallery-inner u-gallery-inner-1">
+          <div class="u-effect-fade u-gallery-item">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="images/cristian-newman-jnpNmhXLTGs-unsplash.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-1">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item u-gallery-item-2">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded u-back-image-2" src="images/brian-wangenheim-EFAelEc40_s-unsplash.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-2">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item u-gallery-item-3">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="images/tai-s-captures-u-MwguPdm7A-unsplash.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-3">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item u-gallery-item-4">
+            <div class="u-back-slide" data-image-width="1067" data-image-height="1600">
+              <img class="u-back-image u-expanded" src="images/frank-uyt-den-bogaard-SM4UANkdWbY-unsplash.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-4">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-5" id="sec-6bac">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h3 class="u-text u-text-1">Recent Postings</h3>
+        <p class="u-text u-text-2">All companies request to be kept confidential until the model has signed a waiver to commit and is willing to submit the required portfolio items. <br>Fashion  There are currently no openings for fashion shoots, but we will let you know when something is available. <br>Pinup  There are currently 1 openings for pinup shoots. <br>
+          <br> Shoot 1 - $175 Flat rate, 2 hour max. <br>
+          <br>Runway  There are currently no openings for runway shoots, but we will let you know when something is available. <br>Bikini  There are currently 2 openings for bikini shoots. <br>
+          <br> Shoot 1 - $25-$35 per hour, minimum 3 hours (max. 6 hours). <br> Shoot 2 - $125 flat rate, no time limit. <br>
+          <br>Lingerie  There are currently 3 openings for lingerie shoots. <br>
+          <br> Shoot 1 - $100-$130 per hour, minimum 1 hours (max. 5 hours). <br> Shoot 2 - $790 flat rate, 2 hour max. <br> Shoot 3 - $1750 flat rate, no time limit (shoot until complete) <br>
+          <br>Exotic / Erotic (Please inquire separately)  These Shoots range from $2000 - $10000 and are normally paid in cash. There are special requirements for these shoots. <br>
+          <br>There are currently 14 openings for other / alternative shoots, but due to the confidential nature of these shoots we cannot disclose any other information at this time.  Please contact your agent for details. <br>If you have not already done so, please submit your agents request form and portfolio.
+        </p>
+      </div>
+    </section>
+	    <section class="u-align-center u-clearfix u-image u-shading u-section-6" id="carousel_162d">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+                <div class="u-gutter-0 u-layout">
+                    <div class="u-layout-row">
+                        <div class="u-container-style u-layout-cell u-left-cell u-palette-2-light-2 u-size-34 u-layout-cell-1">
+                            <div class="u-container-layout u-container-layout-1">
+                                <div id="buttons">
+                                    <h2>Log In or Register</h2>
+                                    <h4>
+                                        You must log in or register to submit portfolio images.
+                                    </h4>
+                                    <table>
+                                        <tr>
+                                            <td><input class="form-control" type="submit" value="Log In" id="login-submit-btn" /></td>
+                                            <td><input class="form-control" type="submit" value="Register" id="reg-submit-btn" /></td>
+                                        </tr>
+                                        <tr></tr>
+                                    </table>
+                                </div>
+                                <div id="login">
+                                    <h2 id="logorreg">Log In</h2>
+                                    <form id="form1" class="form-control" action="https://formspree.io/mvorlwod" method="POST">
+                                        <table>
+                                            <tr>
+                                                <td><label class="form-control" for="user">Username / E-mail</label></td>
+                                                <td><input type="text" placeholder="Email Address" name="user" id="user" class="form-control"></input></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><label class="form-control" for="password">Password</label></td>
+                                                <td>
+                                                    <input class="noselect form-control" type="text" id="password"
+                                                           placeholder="Password" name="password" value="" required>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><label class="form-control" id="pw2lbl" for="password">Password again</label></td>
+                                                <td>
+                                                    <input class="noselect form-control" type="text" id="pw2"
+                                                           placeholder="Password" name="password2" value="" required>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><input type="hidden" id="showit" name="showit" value="" /></td>
+                                                <td><input class="form-control" type="submit" value="Submit" id="email-submit-btn" /></td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </div>
+
+
+                                <div class="cognito" id="cognito">
+                                    <script src="https://services.cognitoforms.com/s/BKTUwYC57EKAV7F4v6E3jA"></script>
+                                    <script>Cognito.load("forms", { id: "1" });</script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="u-clearfix u-section-7" id="sec-643b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-size-28 u-image-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1"></div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-size-32 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <h2 class="u-text u-text-1">Licensed and Bonded</h2>
+                  <p class="u-text u-text-2">Lic. TA682</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9a83"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1">Euromodsearch. All Rights Reserved.</p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
